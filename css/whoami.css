@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #14213d;
+}
+
+
+.nav {
+    background-color: rgb(4, 16, 39);
+    overflow: hidden;
+       
+}
+
+
+#hightlight {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#others {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#yt {
+    float: right;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.nav a:hover {
+    background-color: rgb(1, 68, 131);
+  }
+
+
+.active {
+    background-color: #047baa63;
+  }
+
+.main {
+    width: auto;
+    height: 1200px;
+}
+
+
+.hig {
+    overflow: hidden;
+    font-size: 6rem;
+    text-align: center;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    animation-name: appear2;
+    animation-duration: 2s;
+}
+
+.ps {
+    animation: appear;
+    animation-duration: 4s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(160, 160, 160);
+    font-size: 5rem;
+    text-align: center;
+    margin-top: -5rem;
+}
+
+.alt {
+    animation: appear;
+    animation-duration: 4s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1rem;
+    color: rgb(160, 160, 160);
+    text-align: center;
+    margin-top: -4rem;
+}
+
+section{
+    width: auto;
+    height:3100px;
+}
+.appear-text h1{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 300;
+}
+@keyframes appear {
+    /* from {opacity: 0%;} */
+    /* to {opacity: 100%;} */
+    0% {opacity: 0%;}
+    50% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+@keyframes appear2 {
+    /* from {opacity: 0%;} */
+    /* to {opacity: 100%;} */
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+footer {
+    background-color: #1b2845a2;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    line-height: 25px;
+}
+
+footer h1 {
+    color: #f2f2f2;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:1200px) {
+    footer h1{
+        font-size: 0.62rem;
+    }
+    }

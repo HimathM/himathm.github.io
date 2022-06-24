@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #14213d;
+}
+
+
+.nav {
+    background-color: rgb(4, 16, 39);
+    overflow: hidden;
+       
+}
+
+
+#hightlight {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#others {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#yt {
+    float: right;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.nav a:hover {
+    background-color: rgb(1, 68, 131);
+  }
+
+
+.active {
+    background-color: #047baa63;
+  }
+
+
+footer {
+    background-color: #1b2845a2;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    line-height: 25px;
+}
+
+footer h1 {
+    color: #f2f2f2;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+}
+
+.head{
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.main {
+    margin-bottom: 12vh;
+    text-align: center;
+}
+
+.box p {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1.2rem;
+    margin-top: -1.2rem;
+    color: rgb(156, 156, 156);
+}
+
+.box h1 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+/* .box button {
+    padding: 10px 20px;
+    background-color:  rebeccapurple;
+} */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    padding: 40px;
+}
+
+@media screen and (max-width:1500px) {
+    .wrapper{
+        display: grid;
+    }
+}
+
+.yt {
+    padding: 10px 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1rem;
+    background-color: #ff2e2e;
+    color: white;
+}
+
+.ins {
+    padding: 10px 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1rem;
+    background-color: #b700ff;
+    color: white;
+}
+
+.discord {
+    padding: 10px 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1rem;
+    background-color: #0077ff;
+    color: white;
+}
+
+.twit {
+    padding: 10px 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1rem;
+    background-color: #00b7ff;
+    color: white;
+}
+
+.facebook {
+    padding: 10px 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1rem;
+    background-color: #1143b1;
+    color: white;
+}
+
+.git {
+    padding: 10px 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+}
+
+
+
+.yt:hover {
+
+    background-color: #8f0000;
+    color: white;
+    box-shadow: 0 0px 14px rgb(255, 0, 0);
+}
+
+.ins:hover {
+
+    background-color: #5a007e;
+    color: white;
+    box-shadow: 0 0px 14px rgb(162, 0, 255);
+}
+
+.discord:hover {
+ 
+    background-color: #003f86;
+    color: white;
+    box-shadow: 0 0px 14px rgb(0, 81, 255);
+}
+
+.twit:hover {
+
+    background-color: #005272;
+    color: white;
+    box-shadow: 0 0px 14px rgb(0, 225, 255);
+}
+
+.facebook:hover {
+
+    background-color: #001d5a;
+    color: white;
+    box-shadow: 0 0px 14px rgb(0, 60, 172);
+}
+
+.git:hover {
+
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0px 14px rgb(49, 49, 49);
+}
+
+.mail {
+
+        padding: 10px 20px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-size: 1rem;
+        background-color: rgb(150, 150, 150);
+        color: rgb(0, 0, 0);
+
+}
+
+.mail:hover {
+    background-color: rgb(92, 92, 92);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0px 14px rgb(95, 95, 95);
+
+}
+
+@media screen and (max-width:1200px) {
+    footer h1{
+        font-size: 0.62rem;
+    }
+    }
