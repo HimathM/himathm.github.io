@@ -142,7 +142,7 @@ footer h1 {
     }
 
 
-@media screen and (max-width:970px) {
+@media screen and (max-width:480px) {
     footer h1{
         font-size: 0.52rem;
     }
